@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubgems.org/
+  remote: http://rubgems.org/
   specs:
     actionmailer (3.2.1)
       actionpack (= 3.2.1)
