@@ -1,4 +1,4 @@
-source 'https://rubgems.org'
+source 'http://rubgems.org'
 
 gem 'rails'
 
