@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do 
 	gem 'sqlite3'
@@ -9,6 +10,10 @@ group :development, :test do
 	gem 'guard-rspec'
 	gem 'guard-spork'
 	gem 'spork'
+end
+
+group :development do
+	gem 'annotate'
 end
 
 group :assets do
